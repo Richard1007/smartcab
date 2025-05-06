@@ -1,0 +1,429 @@
+2025-04-30 10:17:09,131 - taxi-rl.config - ERROR - Failed to load configuration: [Errno 2] No such file or directory: 'config/colab_config.yaml'
+2025-04-30 10:17:09,131 - taxi-rl.train - WARNING - Configuration file not found: config/colab_config.yaml
+2025-04-30 10:17:09,131 - taxi-rl.train - INFO - Creating default configuration
+2025-04-30 10:17:09,136 - taxi-rl.config - INFO - Default configuration created at config/colab_config.yaml
+2025-04-30 10:17:51,827 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:17:51,828 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:17:51,846 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/train_config.yaml
+2025-04-30 10:17:51,846 - taxi-rl.train - INFO - Processing data from 1 files
+2025-04-30 10:17:57,384 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/taxi_data.parquet
+2025-04-30 10:17:59,019 - taxi-rl.performance - INFO - Timing 'data_processing': 7.1725 seconds
+2025-04-30 10:17:59,042 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-04-30 10:19:09,844 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:19:09,844 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:19:09,850 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/train_config.yaml
+2025-04-30 10:19:09,851 - taxi-rl.train - INFO - Processing data from 3 files
+2025-04-30 10:19:13,188 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-11.parquet
+2025-04-30 10:19:14,521 - taxi-rl.performance - INFO - Timing 'data_processing': 4.6699 seconds
+2025-04-30 10:19:14,543 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-04-30 10:21:54,349 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:21:54,350 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:21:54,355 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/train_config.yaml
+2025-04-30 10:21:54,355 - taxi-rl.train - INFO - Processing data from 3 files
+2025-04-30 10:21:57,727 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-11.parquet
+2025-04-30 10:21:59,091 - taxi-rl.performance - INFO - Timing 'data_processing': 4.7359 seconds
+2025-04-30 10:21:59,121 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-04-30 10:22:45,849 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:22:45,850 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 10:22:45,855 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/train_config.yaml
+2025-04-30 10:22:45,855 - taxi-rl.train - INFO - Processing data from 3 files
+2025-04-30 10:22:49,223 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-11.parquet
+2025-04-30 10:22:53,190 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-12.parquet
+2025-04-30 10:22:53,867 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2025-01.parquet
+2025-04-30 10:22:54,502 - taxi-rl.data - INFO - Data loading completed in 5.28 seconds
+2025-04-30 10:22:56,355 - taxi-rl.data - INFO - Combined 3 files with total rows: 10789966
+2025-04-30 10:22:56,672 - taxi-rl.data - INFO - Data processing completed in 0.32 seconds
+2025-04-30 10:22:56,692 - taxi-rl.data - INFO - Ride pool building completed in 0.02 seconds
+2025-04-30 10:22:56,692 - taxi-rl.data - INFO - Total execution time: 7.47 seconds
+2025-04-30 10:23:03,828 - taxi-rl.data - INFO - Created ride pool with 10000 rides
+2025-04-30 10:23:03,829 - taxi-rl.performance - INFO - Timing 'data_processing': 17.9736 seconds
+2025-04-30 10:23:03,829 - taxi-rl.train - INFO - Creating training and evaluation environments
+2025-04-30 10:23:06,528 - taxi-rl.performance - INFO - Timing 'environment_creation': 2.6990 seconds
+2025-04-30 10:23:06,529 - taxi-rl.train - INFO - Creating new DQN model
+2025-04-30 10:23:06,591 - taxi-rl.models - INFO - Creating DQN model on cuda
+2025-04-30 10:23:11,837 - taxi-rl.performance - INFO - Timing 'model_creation': 5.3086 seconds
+2025-04-30 10:23:11,840 - taxi-rl.train - INFO - Training model for 1000 timesteps
+2025-04-30 10:24:22,079 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_250.zip
+2025-04-30 10:24:33,251 - taxi-rl.callbacks - INFO - New best model with reward 32.10 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 10:25:32,103 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_500.zip
+2025-04-30 10:26:41,715 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_750.zip
+2025-04-30 10:27:50,090 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_1000.zip
+2025-04-30 10:28:00,490 - taxi-rl.performance - INFO - Timing 'model_training': 288.6492 seconds
+2025-04-30 10:28:00,505 - taxi-rl.train - INFO - Final model saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/final_model.zip
+2025-04-30 10:28:00,505 - taxi-rl.train - INFO - Evaluating final model
+2025-04-30 10:28:21,491 - taxi-rl.performance - INFO - Timing 'model_evaluation': 20.9862 seconds
+2025-04-30 10:28:21,492 - taxi-rl.train - INFO - Final mean reward: 32.10 +/- 0.00
+2025-04-30 10:28:21,492 - taxi-rl.train - INFO - Generating visualization plots
+2025-04-30 10:28:21,716 - taxi-rl.visualization - INFO - Learning curve saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/learning_curve.png
+2025-04-30 10:28:21,977 - taxi-rl.visualization - INFO - Performance metrics plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/performance_metrics.png
+2025-04-30 10:28:22,064 - taxi-rl.visualization - INFO - Cache performance plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/environment_metrics_cache.png
+2025-04-30 10:28:22,136 - taxi-rl.visualization - INFO - Environment metrics plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/environment_metrics.png
+2025-04-30 10:28:22,136 - taxi-rl.visualization - INFO - All visualization plots saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots
+2025-04-30 10:28:22,137 - taxi-rl.performance - INFO - Timing 'visualization': 0.6446 seconds
+2025-04-30 10:28:22,137 - taxi-rl.train - INFO - Total training time: 336.29 seconds
+2025-04-30 10:28:22,137 - taxi-rl.performance - INFO - Performance Metrics Summary:
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO - ---------------------------
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO - data_processing:
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Total: 17.9736s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Mean: 17.9736s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Median: 17.9736s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Min: 17.9736s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Max: 17.9736s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO - environment_creation:
+2025-04-30 10:28:22,138 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Total: 2.6990s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Mean: 2.6990s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Median: 2.6990s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Min: 2.6990s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Max: 2.6990s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO - model_creation:
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Total: 5.3086s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Mean: 5.3086s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Median: 5.3086s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Min: 5.3086s
+2025-04-30 10:28:22,139 - taxi-rl.performance - INFO -   Max: 5.3086s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO - model_training:
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Total: 288.6492s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Mean: 288.6492s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Median: 288.6492s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Min: 288.6492s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Max: 288.6492s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO - model_evaluation:
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Total: 20.9862s
+2025-04-30 10:28:22,140 - taxi-rl.performance - INFO -   Mean: 20.9862s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Median: 20.9862s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Min: 20.9862s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Max: 20.9862s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO - visualization:
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Total: 0.6446s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Mean: 0.6446s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Median: 0.6446s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Min: 0.6446s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Max: 0.6446s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 10:28:22,141 - taxi-rl.performance - INFO - 
+2025-04-30 10:28:22,168 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-04-30 11:02:02,077 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 11:02:02,078 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-04-30 11:02:02,083 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/train_config.yaml
+2025-04-30 11:02:02,083 - taxi-rl.train - INFO - Processing data from 3 files
+2025-04-30 11:02:05,588 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-11.parquet
+2025-04-30 11:02:08,536 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2024-12.parquet
+2025-04-30 11:02:08,670 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/rl_taxi_project/data/yellow_tripdata_2025-01.parquet
+2025-04-30 11:02:08,852 - taxi-rl.data - INFO - Data loading completed in 3.26 seconds
+2025-04-30 11:02:10,742 - taxi-rl.data - INFO - Combined 3 files with total rows: 10789966
+2025-04-30 11:02:11,074 - taxi-rl.data - INFO - Data processing completed in 0.33 seconds
+2025-04-30 11:02:11,098 - taxi-rl.data - INFO - Ride pool building completed in 0.02 seconds
+2025-04-30 11:02:11,098 - taxi-rl.data - INFO - Total execution time: 5.51 seconds
+2025-04-30 11:02:18,244 - taxi-rl.data - INFO - Created ride pool with 10000 rides
+2025-04-30 11:02:18,245 - taxi-rl.performance - INFO - Timing 'data_processing': 16.1616 seconds
+2025-04-30 11:02:18,245 - taxi-rl.train - INFO - Creating training and evaluation environments
+2025-04-30 11:02:20,846 - taxi-rl.performance - INFO - Timing 'environment_creation': 2.6004 seconds
+2025-04-30 11:02:20,846 - taxi-rl.train - INFO - Creating new DQN model
+2025-04-30 11:02:20,878 - taxi-rl.models - INFO - Creating DQN model on cuda
+2025-04-30 11:02:22,072 - taxi-rl.performance - INFO - Timing 'model_creation': 1.2254 seconds
+2025-04-30 11:02:22,073 - taxi-rl.train - INFO - Training model for 20000 timesteps
+2025-04-30 11:06:37,096 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_1000.zip
+2025-04-30 11:06:48,182 - taxi-rl.callbacks - INFO - New best model with reward 77.19 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 11:10:46,200 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_2000.zip
+2025-04-30 11:14:53,110 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_3000.zip
+2025-04-30 11:19:00,722 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_4000.zip
+2025-04-30 11:19:11,567 - taxi-rl.callbacks - INFO - New best model with reward 99.56 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 11:23:08,628 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_5000.zip
+2025-04-30 11:23:19,339 - taxi-rl.callbacks - INFO - New best model with reward 101.63 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 11:27:14,490 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_6000.zip
+2025-04-30 11:27:25,325 - taxi-rl.callbacks - INFO - New best model with reward 196.65 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 11:31:20,584 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_7000.zip
+2025-04-30 11:31:31,415 - taxi-rl.callbacks - INFO - New best model with reward 198.81 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 11:35:34,377 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_8000.zip
+2025-04-30 11:39:39,716 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_9000.zip
+2025-04-30 11:43:51,437 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_10000.zip
+2025-04-30 11:48:01,227 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_11000.zip
+2025-04-30 11:52:06,631 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_12000.zip
+2025-04-30 11:56:11,775 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_13000.zip
+2025-04-30 12:00:17,185 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_14000.zip
+2025-04-30 12:04:23,208 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_15000.zip
+2025-04-30 12:08:28,056 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_16000.zip
+2025-04-30 12:08:38,830 - taxi-rl.callbacks - INFO - New best model with reward 317.03 saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/best_model.zip
+2025-04-30 12:12:33,214 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_17000.zip
+2025-04-30 12:16:32,141 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_18000.zip
+2025-04-30 12:20:31,709 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_19000.zip
+2025-04-30 12:24:31,120 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/checkpoints/checkpoint_20000.zip
+2025-04-30 12:24:41,472 - taxi-rl.performance - INFO - Timing 'model_training': 4939.3985 seconds
+2025-04-30 12:24:41,485 - taxi-rl.train - INFO - Final model saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/final_model.zip
+2025-04-30 12:24:41,485 - taxi-rl.train - INFO - Evaluating final model
+2025-04-30 12:25:02,001 - taxi-rl.performance - INFO - Timing 'model_evaluation': 20.5153 seconds
+2025-04-30 12:25:02,001 - taxi-rl.train - INFO - Final mean reward: 104.52 +/- 0.00
+2025-04-30 12:25:02,001 - taxi-rl.train - INFO - Generating visualization plots
+2025-04-30 12:25:02,173 - taxi-rl.visualization - INFO - Learning curve saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/learning_curve.png
+2025-04-30 12:25:02,439 - taxi-rl.visualization - INFO - Performance metrics plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/performance_metrics.png
+2025-04-30 12:25:02,506 - taxi-rl.visualization - INFO - Cache performance plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/environment_metrics_cache.png
+2025-04-30 12:25:02,591 - taxi-rl.visualization - INFO - Environment metrics plot saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots/environment_metrics.png
+2025-04-30 12:25:02,591 - taxi-rl.visualization - INFO - All visualization plots saved to /content/drive/MyDrive/smartcab_rl/rl_taxi_project/output/plots
+2025-04-30 12:25:02,591 - taxi-rl.performance - INFO - Timing 'visualization': 0.5900 seconds
+2025-04-30 12:25:02,592 - taxi-rl.train - INFO - Total training time: 4980.52 seconds
+2025-04-30 12:25:02,592 - taxi-rl.performance - INFO - Performance Metrics Summary:
+2025-04-30 12:25:02,592 - taxi-rl.performance - INFO - ---------------------------
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO - data_processing:
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Total: 16.1616s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Mean: 16.1616s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Median: 16.1616s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Min: 16.1616s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Max: 16.1616s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO - environment_creation:
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Total: 2.6004s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Mean: 2.6004s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Median: 2.6004s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Min: 2.6004s
+2025-04-30 12:25:02,593 - taxi-rl.performance - INFO -   Max: 2.6004s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO - model_creation:
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Total: 1.2254s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Mean: 1.2254s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Median: 1.2254s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Min: 1.2254s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Max: 1.2254s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO - model_training:
+2025-04-30 12:25:02,594 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Total: 4939.3985s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Mean: 4939.3985s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Median: 4939.3985s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Min: 4939.3985s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Max: 4939.3985s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO - model_evaluation:
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Total: 20.5153s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Mean: 20.5153s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Median: 20.5153s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Min: 20.5153s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Max: 20.5153s
+2025-04-30 12:25:02,595 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO - visualization:
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Count: 1
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Total: 0.5900s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Mean: 0.5900s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Median: 0.5900s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Min: 0.5900s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Max: 0.5900s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-04-30 12:25:02,596 - taxi-rl.performance - INFO - 
+2025-04-30 12:25:02,606 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-05-06 16:33:36,351 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 16:33:36,624 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 16:33:36,900 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/train_config.yaml
+2025-05-06 16:33:36,900 - taxi-rl.train - INFO - Processing data from 3 files
+2025-05-06 16:33:42,664 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2024-11.parquet
+2025-05-06 16:33:47,284 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2024-12.parquet
+2025-05-06 16:33:47,937 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2025-01.parquet
+2025-05-06 16:33:48,735 - taxi-rl.data - INFO - Data loading completed in 6.07 seconds
+2025-05-06 16:33:50,748 - taxi-rl.data - INFO - Combined 3 files with total rows: 10789966
+2025-05-06 16:33:51,065 - taxi-rl.data - INFO - Data processing completed in 0.32 seconds
+2025-05-06 16:33:51,088 - taxi-rl.data - INFO - Ride pool building completed in 0.02 seconds
+2025-05-06 16:33:51,089 - taxi-rl.data - INFO - Total execution time: 8.42 seconds
+2025-05-06 16:33:59,051 - taxi-rl.data - INFO - Created ride pool with 10000 rides
+2025-05-06 16:33:59,052 - taxi-rl.performance - INFO - Timing 'data_processing': 22.1515 seconds
+2025-05-06 16:33:59,052 - taxi-rl.train - INFO - Creating training and evaluation environments
+2025-05-06 16:34:02,021 - taxi-rl.performance - INFO - Timing 'environment_creation': 2.9696 seconds
+2025-05-06 16:34:02,022 - taxi-rl.train - INFO - Creating new DQN model
+2025-05-06 16:34:02,083 - taxi-rl.models - INFO - Creating DQN model on cuda
+2025-05-06 16:34:07,318 - taxi-rl.performance - INFO - Timing 'model_creation': 5.2958 seconds
+2025-05-06 16:34:07,319 - taxi-rl.train - INFO - Training model for 200 timesteps
+2025-05-06 16:34:37,468 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/checkpoint_100.zip
+2025-05-06 16:34:50,041 - taxi-rl.callbacks - INFO - New best model with reward 80.34 saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/best_model.zip
+2025-05-06 16:35:15,431 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/checkpoint_200.zip
+2025-05-06 16:35:26,934 - taxi-rl.performance - INFO - Timing 'model_training': 79.6147 seconds
+2025-05-06 16:35:27,274 - taxi-rl.train - INFO - Final model saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/final_model.zip
+2025-05-06 16:35:27,274 - taxi-rl.train - INFO - Evaluating final model
+2025-05-06 16:35:49,644 - taxi-rl.performance - INFO - Timing 'model_evaluation': 22.3694 seconds
+2025-05-06 16:35:49,644 - taxi-rl.train - INFO - Final mean reward: 80.34 +/- 0.00
+2025-05-06 16:35:49,644 - taxi-rl.train - INFO - Generating visualization plots
+2025-05-06 16:35:50,193 - taxi-rl.visualization - INFO - Learning curve saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/learning_curve.png
+2025-05-06 16:35:50,688 - taxi-rl.visualization - INFO - Performance metrics plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/performance_metrics.png
+2025-05-06 16:35:51,181 - taxi-rl.visualization - INFO - Cache performance plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/environment_metrics_cache.png
+2025-05-06 16:35:51,616 - taxi-rl.visualization - INFO - Environment metrics plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/environment_metrics.png
+2025-05-06 16:35:51,616 - taxi-rl.visualization - INFO - All visualization plots saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots
+2025-05-06 16:35:51,616 - taxi-rl.performance - INFO - Timing 'visualization': 1.9723 seconds
+2025-05-06 16:35:51,617 - taxi-rl.train - INFO - Total training time: 135.48 seconds
+2025-05-06 16:35:51,617 - taxi-rl.performance - INFO - Performance Metrics Summary:
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO - ---------------------------
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO - data_processing:
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Total: 22.1515s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Mean: 22.1515s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Median: 22.1515s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Min: 22.1515s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Max: 22.1515s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO - environment_creation:
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,618 - taxi-rl.performance - INFO -   Total: 2.9696s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Mean: 2.9696s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Median: 2.9696s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Min: 2.9696s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Max: 2.9696s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO - model_creation:
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Total: 5.2958s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Mean: 5.2958s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Median: 5.2958s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Min: 5.2958s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Max: 5.2958s
+2025-05-06 16:35:51,619 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO - model_training:
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Total: 79.6147s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Mean: 79.6147s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Median: 79.6147s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Min: 79.6147s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Max: 79.6147s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO - model_evaluation:
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Total: 22.3694s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Mean: 22.3694s
+2025-05-06 16:35:51,620 - taxi-rl.performance - INFO -   Median: 22.3694s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Min: 22.3694s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Max: 22.3694s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO - visualization:
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Total: 1.9723s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Mean: 1.9723s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Median: 1.9723s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Min: 1.9723s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Max: 1.9723s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 16:35:51,621 - taxi-rl.performance - INFO - 
+2025-05-06 16:35:51,648 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-05-06 17:03:50,657 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 17:03:50,658 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 17:03:50,664 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/train_config.yaml
+2025-05-06 17:03:50,664 - taxi-rl.train - INFO - Processing data from 3 files
+2025-05-06 17:03:54,195 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2024-11.parquet
+2025-05-06 17:03:55,551 - taxi-rl.performance - INFO - Timing 'data_processing': 4.8874 seconds
+2025-05-06 17:03:55,574 - py4j.clientserver - INFO - Closing down clientserver connection
+2025-05-06 17:05:03,406 - taxi-rl.config - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 17:05:03,407 - taxi-rl.train - INFO - Configuration loaded from config/colab_config.yaml
+2025-05-06 17:05:03,412 - taxi-rl.config - INFO - Configuration saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/train_config.yaml
+2025-05-06 17:05:03,412 - taxi-rl.train - INFO - Processing data from 3 files
+2025-05-06 17:05:06,979 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2024-11.parquet
+2025-05-06 17:05:09,940 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2024-12.parquet
+2025-05-06 17:05:10,092 - taxi-rl.data - INFO - Loading data from: /content/drive/MyDrive/smartcab_rl/smartcab/data/yellow_tripdata_2025-01.parquet
+2025-05-06 17:05:10,308 - taxi-rl.data - INFO - Data loading completed in 3.33 seconds
+2025-05-06 17:05:12,174 - taxi-rl.data - INFO - Combined 3 files with total rows: 10789966
+2025-05-06 17:05:12,490 - taxi-rl.data - INFO - Data processing completed in 0.32 seconds
+2025-05-06 17:05:12,510 - taxi-rl.data - INFO - Ride pool building completed in 0.02 seconds
+2025-05-06 17:05:12,511 - taxi-rl.data - INFO - Total execution time: 5.53 seconds
+2025-05-06 17:05:19,642 - taxi-rl.data - INFO - Created ride pool with 10000 rides
+2025-05-06 17:05:19,643 - taxi-rl.performance - INFO - Timing 'data_processing': 16.2306 seconds
+2025-05-06 17:05:19,643 - taxi-rl.train - INFO - Creating training and evaluation environments
+2025-05-06 17:05:22,196 - taxi-rl.performance - INFO - Timing 'environment_creation': 2.5526 seconds
+2025-05-06 17:05:22,196 - taxi-rl.train - INFO - Creating new DQN model
+2025-05-06 17:05:22,228 - taxi-rl.models - INFO - Creating DQN model on cuda
+2025-05-06 17:05:23,439 - taxi-rl.performance - INFO - Timing 'model_creation': 1.2421 seconds
+2025-05-06 17:05:23,440 - taxi-rl.train - INFO - Training model for 200 timesteps
+2025-05-06 17:05:55,259 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/checkpoint_100.zip
+2025-05-06 17:06:09,114 - taxi-rl.callbacks - INFO - New best model with reward 32.10 saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/best_model.zip
+2025-05-06 17:06:35,062 - taxi-rl.callbacks - INFO - Saved checkpoint to /content/drive/MyDrive/smartcab_rl/smartcab/output/checkpoints/checkpoint_200.zip
+2025-05-06 17:06:46,927 - taxi-rl.performance - INFO - Timing 'model_training': 83.4873 seconds
+2025-05-06 17:06:46,940 - taxi-rl.train - INFO - Final model saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/final_model.zip
+2025-05-06 17:06:46,941 - taxi-rl.train - INFO - Evaluating final model
+2025-05-06 17:07:09,705 - taxi-rl.performance - INFO - Timing 'model_evaluation': 22.7647 seconds
+2025-05-06 17:07:09,706 - taxi-rl.train - INFO - Final mean reward: 32.10 +/- 0.00
+2025-05-06 17:07:09,706 - taxi-rl.train - INFO - Generating visualization plots
+2025-05-06 17:07:09,858 - taxi-rl.visualization - INFO - Learning curve saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/learning_curve.png
+2025-05-06 17:07:10,110 - taxi-rl.visualization - INFO - Performance metrics plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/performance_metrics.png
+2025-05-06 17:07:10,176 - taxi-rl.visualization - INFO - Cache performance plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/environment_metrics_cache.png
+2025-05-06 17:07:10,264 - taxi-rl.visualization - INFO - Environment metrics plot saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots/environment_metrics.png
+2025-05-06 17:07:10,264 - taxi-rl.visualization - INFO - All visualization plots saved to /content/drive/MyDrive/smartcab_rl/smartcab/output/plots
+2025-05-06 17:07:10,264 - taxi-rl.performance - INFO - Timing 'visualization': 0.5580 seconds
+2025-05-06 17:07:10,264 - taxi-rl.train - INFO - Total training time: 126.86 seconds
+2025-05-06 17:07:10,265 - taxi-rl.performance - INFO - Performance Metrics Summary:
+2025-05-06 17:07:10,265 - taxi-rl.performance - INFO - ---------------------------
+2025-05-06 17:07:10,265 - taxi-rl.performance - INFO - data_processing:
+2025-05-06 17:07:10,265 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,265 - taxi-rl.performance - INFO -   Total: 16.2306s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Mean: 16.2306s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Median: 16.2306s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Min: 16.2306s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Max: 16.2306s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO - environment_creation:
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Total: 2.5526s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Mean: 2.5526s
+2025-05-06 17:07:10,266 - taxi-rl.performance - INFO -   Median: 2.5526s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Min: 2.5526s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Max: 2.5526s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO - model_creation:
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Total: 1.2421s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Mean: 1.2421s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Median: 1.2421s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Min: 1.2421s
+2025-05-06 17:07:10,267 - taxi-rl.performance - INFO -   Max: 1.2421s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO - model_training:
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Total: 83.4873s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Mean: 83.4873s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Median: 83.4873s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Min: 83.4873s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Max: 83.4873s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,268 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO - model_evaluation:
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Total: 22.7647s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Mean: 22.7647s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Median: 22.7647s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Min: 22.7647s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Max: 22.7647s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO - visualization:
+2025-05-06 17:07:10,269 - taxi-rl.performance - INFO -   Count: 1
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Total: 0.5580s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Mean: 0.5580s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Median: 0.5580s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Min: 0.5580s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Max: 0.5580s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO -   Std Dev: 0.0000s
+2025-05-06 17:07:10,270 - taxi-rl.performance - INFO - 
+2025-05-06 17:07:10,283 - py4j.clientserver - INFO - Closing down clientserver connection

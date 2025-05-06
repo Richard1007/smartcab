@@ -1,0 +1,36 @@
+env:
+  api_key: test_key
+  max_rides: 10
+  seed: 42
+model:
+  batch_size: 64
+  buffer_size: 10000
+  context_dim: 6
+  exploration_final_eps: 0.05
+  exploration_fraction: 0.2
+  exploration_initial_eps: 1.0
+  features_dim: 256
+  gamma: 0.99
+  gradient_steps: 1
+  learning_rate: 0.0003
+  learning_starts: 500
+  max_grad_norm: 10
+  max_rides: 10
+  ride_feature_dim: 8
+  seed: 42
+  target_update_interval: 500
+  tau: 1.0
+  train_freq: 4
+performance:
+  onnx_optimization: true
+  parallel_processing: true
+  use_cache: true
+  use_gpu: true
+  use_numba: true
+  vectorized_ops: true
+train:
+  checkpoint_freq: 5000
+  eval_freq: 2000
+  n_eval_episodes: 5
+  profile_freq: 5000
+  total_timesteps: 20000
